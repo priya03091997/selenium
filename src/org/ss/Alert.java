@@ -17,8 +17,25 @@ public class Alert {
 
 		WebElement all = driver.findElement(By.xpath("//input[@name='submit']"));
 		all.click();
-
+<<<<<<< HEAD
+		
 		org.openqa.selenium.Alert alert = driver.switchTo().alert();
+		alert.accept();		
+       
+	
+		System.out.println("priya");
+	System.out.println("priya");
+	System.out.println("priya");
+
+	
+		
+=======
+>>>>>>> 9cd87fad32c422e448e4be5df7c5eae477149024
+
+		
+
+
+org.openqa.selenium.Alert alert = driver.switchTo().alert();
 		alert.accept();
 
 		System.out.println("priya");
