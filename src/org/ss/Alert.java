@@ -22,7 +22,10 @@ public class Alert {
 		org.openqa.selenium.Alert alert = driver.switchTo().alert();
 		alert.accept();		
        
-	
+	System.out.println("priya");
+	System.out.println("priya");
+	System.out.println("priya");
+
 	
 		
 
